@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "flash app",
+            "command": "C:/Users/forev/Documents/PlatformIO/JTAGICE/jtagice.exe",
+            "type": "process",
+            "args": [
+                "-dATmega16", "-e", "-ifC:/Users/forev/Documents/PlatformIO/Projects/180118-204555-mightycore16/.pioenvs/mightycore16/firmware.hex", "-pf", "-vf","-cCOM8"
+            ],
+            "presentation": {
+                "reveal": "always"
+            }
+        }
+    ]
+}
